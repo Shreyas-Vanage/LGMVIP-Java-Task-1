@@ -9,6 +9,14 @@ public class CC extends JFrame implements ActionListener {
     private JComboBox<String> fcb;
     private JComboBox<String> tcb;
     private JLabel resultL;
+
+    /*
+     * amtf - amountTextField
+     * fcb - FromComboBox
+     * tcb - ToComboBox
+     * resultL - resultLabel
+     */
+    
     // Exchange rates
     private static final double USD_EUR = 0.85;
     private static final double USD_GBP = 0.73;
